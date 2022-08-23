@@ -128,6 +128,8 @@ echo ""
 unity-editor \
   -logfile /dev/stdout \
   -quit \
+  -username "$UNITY_EMAIL" \
+  -password "$UNITY_PASSWORD" \
   -customBuildName "$BUILD_NAME" \
   -projectPath "$UNITY_PROJECT_PATH" \
   -buildTarget "$BUILD_TARGET" \
